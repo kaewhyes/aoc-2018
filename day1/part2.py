@@ -11,3 +11,9 @@
             print("The repeated frequency is: " + str(freq2))
         #freq2 += int(line)
     print(freq2) """
+
+with open("input.txt") as f:
+    line = f.readlines()
+    freq2 = [0]
+    for line in lines:
+        freq2 += int(freq2.append(line))
